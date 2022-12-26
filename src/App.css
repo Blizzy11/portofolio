@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,30 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* Navbar Style */
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+.header span {
+  font-family: 'Montserrat', sans-serif;
+} */
+/* @keyframes background{
+  100%{ background-size: 4000px 1000px; }
+}
+.App{
+  background-image: url('./assets/Wave.svg');
+  background-size: 2000px 1000px;
+  background-position: -500px 0;
+  animation: background 3s infinite linear;
+} */
+/* .link a{
+  font-family: 'Montserrat', sans-serif;
+}
+.App{
+  height: 2000px;
+} */
+body {
+  background-color: black;
+  color: white;
 }
