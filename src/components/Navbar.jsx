@@ -10,7 +10,7 @@ function Navbar(){
         setNav(!nav)
     }
     return(
-        <div className="header backdrop-blur-lg border-b-[0.1px] border-slate-700">
+        <div className="header backdrop-blur-lg bg-black/70 border-b-[0.1px] border-slate-700">
             <div className="max-w-[1324px] px-6 xl:px-0 mx-auto flex justify-between py-5">
                 <div className="nav-brand flex">
                     <span className="text-2xl text-[#00df9a] font-bold tracking-widest">welcome</span>
@@ -25,8 +25,8 @@ function Navbar(){
                 <div  className="flex items-center md:hidden text-white" onClick={handleNav}>
                     {!nav ? <AiOutlineMenu size={20}/> : <AiOutlineClose size={20}/>}
                 </div>
-                <div className={!nav ? 'fixed top-0 left-[-100%] h-screen ease-in-out duration-700' : 'fixed left-0 top-0 w-[60%] h-screen bg-slate-800 ease-in-out duration-700 flex md:hidden'}>
-                    <ul className="link text-3xl flex flex-col p-10">
+                <div className={!nav ? 'fixed top-0 left-[-100%] h-screen ease-in-out duration-700' : 'fixed left-0 top-0 w-[60%] h-screen bg-slate-900 ease-in-out duration-700 flex md:hidden'}>
+                    <ul className="link text-3xl flex flex-col p-10 font-semibold">
                         <li className="py-3"><Link to="/" className="hover:text-emerald-500">Home</Link></li>
                         <li className="py-3"><Link to="/about" className="hover:text-emerald-500">About</Link></li>
                         <li className="py-3"><Link to="/contact" className="hover:text-emerald-500">Contact</Link></li>

@@ -6,7 +6,7 @@ import '../css/Home.css';
 const Hero = () => {
     return (
         <div className="headerSection h-screen">
-            <div className="max-w-[1024px] flex flex-col mx-auto justify-center text-center py-[206px]">
+            <div className="max-w-[1024px] flex flex-col mx-auto justify-center text-center py-[120px] 2xl:py-[206px]">
                     <h1 className="text-3xl text-white">Hello!</h1>
                     <h1 className="text-3xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-[#00df9a] to-[#0d84bf] font-bold py-4">I'am Muhammad Haris Kumala.</h1>
                     <p className="text-gray-500 font-semibold py-4">As a person, I am constantly striving to improve myself and become a better person. I believe that growth and personal development are important aspects of a fulfilling life.</p>
